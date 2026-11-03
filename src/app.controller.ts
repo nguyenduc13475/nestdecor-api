@@ -11,8 +11,8 @@ class DesignDto {
   @ApiProperty({ example: 3000000 }) budget: number;
 }
 
-const products = [{ id: 1, name: 'Thảm Vintage', price: 450000 }];
-const designs = [];
+const products: any[] = [{ id: 1, name: 'Thảm Vintage', price: 450000 }];
+const designs: any[] = [];
 
 @ApiTags('Products (Catalog)')
 @Controller('products')
